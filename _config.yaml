@@ -1,10 +1,11 @@
 # site properties and page defaults
-title: Lab Website Template
-subtitle: by the Greene Lab
-description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
-header: images/background.jpg
-footer: images/background.jpg
-
+title: International Congress of Armenian Mycologists # title of site, used in tab name and elsewhere
+email: icarmenian.mycologists@gmail.com # default email
+google: Tania Kurbessoian # default name to search on Google Scholar
+github: ICArmenian-Mycologists # default GitHub user/org, without the @
+twitter: IC_ArmenianMyco # default Twitter handle, without the @
+instagram: ICArmenian-Mycologists # default Instagram handle, without the @
+youtube: ICArmenian-Mycologists # default YouTube channel handle
 # site social media and other links
 links:
   email: contact@your-lab.com
@@ -22,6 +23,8 @@ defaults:
   - scope:
       path: ""
     values:
+      description: International Congress for Armenian Mycologists are American Armenian mycologists who are interested in collab$
+      background: icons/ICAM-icon.jpg # background image in header and footer
       layout: default
   # markdown files in /_members
   - scope:
@@ -49,6 +52,12 @@ plugins:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-last-modified-at
+  - jekyll-github-metadata
+  - jekyll-avatar
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-relative-links
+  - jemoji
 
 # code block syntax highlighting
 highlighter: rouge
