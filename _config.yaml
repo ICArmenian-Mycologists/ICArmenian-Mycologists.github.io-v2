@@ -1,12 +1,12 @@
 # site properties and page defaults
-title: International Congress of Armenian Mycologists # title of site, used in tab name and elsewhere
+title: ICArmenian-Mycologists
 links:
-  email: icarmenian.mycologists@gmail.com # default email
+  email: contact@ICArmenian-Mycologists.com
   google: Tania Kurbessoian # default name to search on Google Scholar
-  github: ICArmenian-Mycologists # default GitHub user/org, without the @
-  twitter: IC_ArmenianMyco # default Twitter handle, without the @
+  github: ICArmenian-Mycologists
+  twitter: ICArmenian-Mycologists
   instagram: ICArmenian-Mycologists # default Instagram handle, without the @
-  youtube: ICArmenian-Mycologists # default YouTube channel handle
+  youtube: ICArmenian-Mycologists
 # site social media and other links
 
 ### jekyll settings
