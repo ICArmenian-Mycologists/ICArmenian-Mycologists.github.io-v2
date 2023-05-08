@@ -39,19 +39,17 @@ collections:
   posts:
     output: true
 
-# jekyll plugins
+# plugins
 plugins:
-  - jekyll-spaceship
-  - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-feed
-  - jekyll-last-modified-at
+  - jekyll-sitemap
   - jekyll-github-metadata
-  - jekyll-avatar
+  # - jekyll-avatar
   - jekyll-gist
   - jekyll-mentions
   - jekyll-relative-links
-  - jemoji
+    #- jemoji
 
 # code block syntax highlighting
 highlighter: rouge
